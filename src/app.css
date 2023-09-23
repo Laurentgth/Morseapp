@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-spacing: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgb(7, 153, 89), 80%, rgb(252, 91, 241));
+    min-height: 100vh;
+}
+
+#app {
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    font-weight: normal;
+    text-align: center;
+    min-height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 500px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    width: 90%;
+    margin-inline: auto;
+    background-color: rgb(2, 45, 61);
+    margin-top: 1rem;
+}
